@@ -1,0 +1,68 @@
+body {
+	font: 16px/26px nunito;
+}
+
+h1{
+	color: white;
+	font-size: 14px;
+	line-height: 200px;
+	text-align: center;
+}
+
+.box-shadow {
+	width: 200px;
+	height: 200px;
+	margin: 50px;
+	background-color: black;
+	/*Sumbu Y,Sumbu X, Blur, Warna*/
+	box-shadow: 5px 5px 10px salmon;
+}
+
+/*4 Value Utama*/
+/*X Offset, Y Offset, Blur, Color*/
+.text-shadow {
+	font-size: 34px;
+	color: white;
+	margin: 50px;
+	text-shadow: 0px 2px 2px black;
+
+	/*Mutiple Text Shadow*/
+	/*text-shadow: 5px 5px 10px salmon, -5px -5px 10px salmon;*/
+}
+
+
+/*Warna Awal, Warna Akhir, Derajat*/
+.linear-gradient {
+	width: 200px;
+	height: 200px;
+	margin: 50px;
+	/*Sintaks Sederhana*/
+	/*background-image: linear-gradient(green, yellow, rgba(0,100,0,1));*/
+
+	/*keyword Menggunakan Derajat derajat => deg*/
+	background-image: linear-gradient(to left top, green, yellow);
+
+	/*value horizontal atau vertical*/
+	/*to bottom, to top, to left, to right */
+	/*value diagonal*/
+	/*to left top, to left bottom, to right top, to right bottom*/
+
+}
+
+.opacity-1 {
+	width: 200px;
+	height: 200px;
+	margin-left: 50px;
+	background-color: salmon;
+	position: relative;
+}
+
+.opacity-2 {
+	width: 80px;
+	height: 80px;
+	background-color: rgba(0,50,50,0.5);
+	position: absolute;
+	right: -50px;
+	bottom: -50px;
+
+}
